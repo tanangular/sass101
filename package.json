@@ -1,0 +1,16 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass assets/main.scss assets/main.css --watch --include-path node_modules/bootstrap/scss/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "node-sass": "^4.9.3"
+  }
+}
